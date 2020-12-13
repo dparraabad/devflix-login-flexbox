@@ -1,0 +1,15 @@
+.login-facebook a {
+  @include button($facebook-color, $white);
+  width: 100%;
+}
+
+.new-users {
+  display: flex;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+
+  a {
+    color: $white;
+    margin-left: 0.5rem;
+  }
+}

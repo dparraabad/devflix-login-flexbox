@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  margin: 3rem;
+  max-width: 200px;
+
+  @include tablet {
+    margin: 2rem;
+  }
+}

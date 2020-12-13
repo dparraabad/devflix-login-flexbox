@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DEVFLIX</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="img/logo.svg" alt="Logo">
+        </figure>
+    </header>
+
+    <main class="login-container">
+
+        <section class="login-form">
+            <form action="#">
+                <h1>Iniciar Sesión</h1>
+
+                <label for="usuario" class="login-input">
+                    <input type="text" id="usuario">
+                    <label class="input-placeholder">Email o número de teléfono</label>
+                </label>
+
+                <label for="password" class="login-input">
+                    <input type="password" id="password">
+                    <label class="input-placeholder">Contraseña</label>
+                    <span>mostrar</span>
+                </label>
+    
+                <input class="submit" type="submit" value="Ingresar">
+    
+                <div class="others">
+
+                    <div>
+                        <input type="checkbox">
+                        <label>Recuérdame</label>
+                    </div>
+    
+                    <div class="help">
+                        <a href="#">¿Necesitas ayuda?</a>
+                    </div>
+                </div>
+                
+            </form>
+        </section>
+
+        <section class="login-facebook">
+            <a href="#">Iniciar sesión con facebook</a>
+        </section>
+
+        <section class="new-users">
+            ¿Primera vez en Netflix? <a href="#"><span>Suscríbete ya.</span></a> 
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+            <p>¿Preguntas? Llama al 01800-265-0161</p>
+
+            <ul class="menu">
+                <li>
+                    <a href="#">Términos de la tarjeta de regalo</a>
+                </li>
+                <li>
+                    <a href="#">Términos de uso</a>
+                </li>
+                <li>
+                    <a href="#">Declaración de privacidad</a>
+                </li>
+            </ul>
+
+            <select class="language">
+                <option value="eng">English</option>
+                <option value="esp">Español</option>
+            </select>
+        </div>
+
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+
+</body>
+</html>
