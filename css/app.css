@@ -60,7 +60,7 @@ a:hover {
 
 .logo {
   display: block;
-  margin: 3rem;
+  margin: 3rem auto;
   max-width: 200px;
 }
 
